@@ -351,3 +351,10 @@ div.comment>i.fa-reply {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
   }
+
+  /*Liste Resto*/
+
+  div.container>div.table-responsive>table.table>tbody>tr>td>img {
+      max-width: 20px;
+      max-height: 20px;
+  }

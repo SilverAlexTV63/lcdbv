@@ -90,7 +90,7 @@
                   margin: 0;
                   max-width: 15%;
                 }
-                
+
               </style>
 
 <input class="checkbox-cb" id="checkbox-cb" type="checkbox" />
@@ -129,7 +129,7 @@
 	</a>
 	<text class="numdep" x="355" y="330" id="<?php echo $descdep['42']; ?>">42</text>
 
-	<a class="svglink" href="<?php echo $liendep['63']; ?>" title="<?php echo $descdep['63']; ?>" alt="<?php echo $descdep['63']; ?>">
+	<a class="svglink" href="list-resto.php" title="<?php echo $descdep['63']; ?>" alt="<?php echo $descdep['63']; ?>">
 	  <path id="<?php echo $descdep['63']; ?>" class="enabled-map" d="M324.95,306.05
 	l-3.3,0.5l-4.4-4.5l1.2-2.8l-2.3-1.7l-11.2,8l-2.5-1.2l-0.5,4.1l2.3,6.7l-9.4,8.6l4.5,5.5l1.2,5.6l-1.7,2.4l1.2,7.9l7.5,3.5
 	l1.5,2.5l6.7,0.3l6.5,5.4l3.7-4.1v-0.1l9.6-3.2l8.5,0.1l5.2,3.2l11.1-0.7l3-7.1l-2.7-7.5l-4.6-3.8l-4.7-7.7l2.1-6.3l-2.5-2.7
