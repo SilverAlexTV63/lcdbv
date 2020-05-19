@@ -1,4 +1,4 @@
-    <meta name="description" content="Titre" />
+<meta name="description" content="Titre" />
     <meta name="keywords" content="Titre" />
     <title>Le Club des Bons Vivants</title>
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 3.0" />

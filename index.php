@@ -6,7 +6,7 @@
 <body>
     <?php include("includes/header.php"); ?>
     <?php include("includes/home.php"); ?>
-    <?php include("include/footer.php"); ?>
-    <?php include("include/scripts.php") ?>
+    <?php include("includes/footer.php"); ?>
+    <?php include("includes/scripts.php"); ?>
 </body>
 </html>
