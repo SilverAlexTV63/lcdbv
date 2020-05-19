@@ -354,7 +354,11 @@ div.comment>i.fa-reply {
 
   /*Liste Resto*/
 
-  div.container>div.table-responsive>table.table>tbody>tr>td>img {
+  div.container>div.table-responsive>table.table>tbody>tr>td>img.miniature {
       max-width: 20px;
       max-height: 20px;
+  }
+
+  div.container>div.table-responsive>table.table>tbody>tr>td>img.list-hearts {
+      max-width: 150px;
   }

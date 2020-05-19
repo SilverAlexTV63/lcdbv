@@ -19,20 +19,20 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img src="#"></td>
+                        <td><img class="miniature" src="#"></td>
                         <td><a href="resto.php" style="color: black;">Resto1</a></td>
                         <td>Adresse</td>
                         <td>XX €</td>
-                        <td><img src=""> (X avis)</td>
+                        <td><img class="list-hearts" src="assets/img/a-la-folie.gif"> (X avis)</td>
                         <td>Genre</td>
                         <td>Ville</td>
                     </tr>
                     <tr>
-                        <td><img src="#"></td>
+                        <td><img class="miniature" src="#"></td>
                         <td><a href="#" style="color: black;">Resto2</a></td>
                         <td>Adresse</td>
                         <td>XX €</td>
-                        <td><img src=""> (X avis)</td>
+                        <td><img class="list-hearts" src="assets/img/beaucoup.gif"> (X avis)</td>
                         <td>Genre</td>
                         <td>Ville</td>
                     </tr>
