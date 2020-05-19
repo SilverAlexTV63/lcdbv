@@ -5,7 +5,7 @@
                     <h1 class="mb-5" style="color: rgb(0,0,0);">Découvrez les restaurants recommandés par nos membres<br></h1>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form action="search-result.php">
+                    <form action="results.php">
                         <div class="form-row">
                             <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="border-dark form-control form-control-lg" type="text" placeholder="Rechercher un restaurant ..."></div>
                             <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit" style="background-color: #ff9966; border-color: #990000">Rechercher</button></div>
