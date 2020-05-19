@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Le Club Des Bons Vivants</title>
+    <?php include("head.php"); ?>
 </head>
 <body>
-    
+    <?php include("includes/header.php"); ?>
+    <?php include("includes/home.php"); ?>
+    <?php include("include/footer.php"); ?>
+    <?php include("include/scripts.php") ?>
 </body>
 </html>
