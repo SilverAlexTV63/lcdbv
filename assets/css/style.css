@@ -2,8 +2,9 @@ footer.footer {
     padding: 2rem 0;
 }
 
-h4.card-title.hearts {
-    color: red;
+img.card-hearts {
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 div.col-custom-slider>.tns-outer {
