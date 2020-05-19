@@ -2,8 +2,7 @@
         <div class="card" style="border: none;">
             <div class="card-body" style="padding-left: 0;">
             <p><a href="#">Chemin</a>><a href="#">d'accès</a>><a href="#">...</a></p>
-                <h4 class="card-title">Nom du restaurant </h4>
-                
+                <h4 class="card-title">Nom du restaurant</h4>
                 <!-- AddToAny BEGIN -->
                 <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
                 <a class="a2a_button_facebook"></a>
@@ -17,8 +16,7 @@
                 </script>
                 <script async src="assets/js/addtoany.js"></script>
                 <!-- AddToAny END -->
-
-                <br>
+                <hr>
                 <h6 class="text-muted card-subtitle mb-2">Fiche mise à jour le JJ/MM/AAAA - Restaurateur, mettez à jours vos documents <a href="#">ici</a></h6>
             </div>
         </div>
@@ -100,7 +98,7 @@
                             $('body').append(`
                                 <div class="custom-modal">
                                     <div class="custom-modal-container">
-                                        <button style="position: absolute; right: 15px;">X</button>
+                                        <button class="btn-primary" style="text-align: center; line-height: 30px; font-size: 24px; position: absolute; top: 10px; right: 30px; background-color: #ff9966; border: 1px solid #990000; border-radius: .25rem;">X</button>
                                         <div class="modal-content">
                                             <ul id="modal-slider">
                                                 <li><img src="https://static.toiimg.com/thumb/58475411/Kolkata-in-pictures.jpg?width=748&height=499"></li>
