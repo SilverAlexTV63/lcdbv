@@ -5,7 +5,7 @@
 </style>
 <nav class="navbar navbar-light navbar-expand-md bg-light navigation-clean-search" style="background-color: rgba(255, 153, 102, .2)!important;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="home.php">
+        <a class="navbar-brand" href="index.php">
             <img src="assets/img/long-logo.png">
         </a>
         <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
