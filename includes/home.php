@@ -166,6 +166,7 @@
 
 <form action="region.php" method="post">
   <select name="region" size="1">
+          <option></option>
   <?php for ($i=0; $i<13; $i++) { ?>
           <option>Region XX</option>
   <?php } ?>

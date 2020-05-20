@@ -100,6 +100,7 @@
   <label for="checkbox-cb" class="close-cb">Oui</label>
 </div>
 
+
 <!-- viewBox="0 0 548.2 564.3" enable-background="new 0 0 548.2 564.3" paris: viewBox="250 100 100 100"-->
 <svg version="1.0" id="Layer_1" viewBox="278 260 228 170" overflow="visible" style="margin-bottom: 50px;">
 <!-- DEBUT AUVERGNE RHONE ALPES -->
@@ -204,10 +205,11 @@
 <!-- FIN AUVERGNE RHONE ALPES -->
 </svg>
 
-<form action="region.php" method="post">
-    <select name="region" size="1">
-    <?php for ($i=0; $i<13; $i++) { ?>
-            <option>Region XX</option>
+<form action="list-resto.php">
+    <select name="departement" size="1">
+            <option></option>
+    <?php for ($i=0; $i<11; $i++) { ?>
+            <option>Département XX</option>
     <?php } ?>
     </select>
     <button type="button" class="btn btn-primary" style="background-color: #ff9966; border-color: #990000;">Voir la liste des restaurants</button>

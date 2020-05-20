@@ -21,7 +21,7 @@
             </form>
             <ul class="nav navbar-nav">
                 <li class="nav-item dropdown justify-content-around justify-content-xl-center" style="list-style: none;color: black;"><a class="dropdown-toggle nav-link active" data-toggle="dropdown" aria-expanded="false" style="color: black;">Accueil ▼</a>
-                <div class="dropdown-menu dropdown-menu-right" role="menu"><a class="dropdown-item" role="presentation" href="#">Carte de France</a></div>
+                <div class="dropdown-menu dropdown-menu-right" role="menu"><a class="dropdown-item" role="presentation" href="index.php">Carte de France</a></div>
                 </li>
                     <div class="dropdown-menu dropdown-menu-right" role="menu"><a class="dropdown-item" role="presentation" href="home.php">Carte de France</a></div>
                 </li>
