@@ -97,7 +97,7 @@
                             $('body').append(`
                                 <div class="custom-modal">
                                     <div class="custom-modal-container">
-                                        <button style="position: absolute; right: 15px;">X</button>
+                                        <button style="color: #990000; text-align: center; line-height: 30px; font-size: 24px; position: absolute; top: 10px; right: 30px; background-color: #ff9966; border: 1px solid #990000; border-radius: .25rem;">X</button>
                                         <div class="modal-content">
                                             <ul id="modal-slider">
                                                 <li><img src="https://static.toiimg.com/thumb/58475411/Kolkata-in-pictures.jpg?width=748&height=499"></li>
@@ -140,7 +140,7 @@
                             $('body').append(`
                                 <div class="custom-modal">
                                     <div class="custom-modal-container">
-                                        <button style="position: absolute; right: 15px;">X</button>
+                                        <button style="color: #990000; text-align: center; line-height: 30px; font-size: 24px; position: absolute; top: 10px; right: 30px; background-color: #ff9966; border: 1px solid #990000; border-radius: .25rem;">X</button>
                                         <div class="modal-content">
                                             <ul id="modal-slider">
                                                 <li><img src="https://static.toiimg.com/thumb/58475411/Kolkata-in-pictures.jpg?width=748&height=499"></li>
