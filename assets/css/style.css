@@ -154,16 +154,9 @@ div.comment-redaction>div.container>form#redaction>div#checkboxes>label {
 }
 
 div.comment {
-    border: 1px solid #990000;
     padding: 10px;
     margin-bottom: 15px;
-    border-radius: 25px;
     position: relative;
-}
-
-div.comment:hover {
-    /*background-color: #ff9966;*/
-    box-shadow: 0 0 10px black;
 }
 
 p.comment-date {
@@ -182,11 +175,31 @@ img.hearts {
     max-height: 40px;
 }
 
+div.container.comment>button.btn.btn-primary {   
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+div.comment-redaction>div.container>form{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+div.comment-redaction>div.container>form>button.btn.btn-primary {    
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
 div.comment>i.fa-reply {
     font-size: 20px;
     position: absolute;
     right: 15px;
     bottom: 15px;
+}
+
+div.comment-redaction {
+    margin: 0;
 }
 /*RESPOSIVE*/
 
@@ -263,6 +276,7 @@ div.comment>i.fa-reply {
 }
 
 /*Cookie bar*/
+
 .cookie-bar {
     z-index: 99;
     position: fixed;
@@ -363,5 +377,3 @@ div.comment>i.fa-reply {
   div.container>div.table-responsive>table.table>tbody>tr>td>img.list-hearts {
       max-width: 100px;
   }
-
-  /*Comment*/

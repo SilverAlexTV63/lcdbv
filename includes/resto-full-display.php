@@ -20,7 +20,6 @@
                 <h6 class="text-muted card-subtitle mb-2">Fiche mise à jour le JJ/MM/AAAA - Restaurateur, mettez à jours vos documents <a href="#">ici</a></h6>
             </div>
         </div>
-    </div>
     <div class="container" id="description-slider">
         <div class="row">
             <div id="description-col" class="col" style="display: flex; max-width:50%;">
@@ -181,279 +180,124 @@
                     });
                 </script>
             </div>
+          </div>
     </div>
 </div>
-<style>
-    a {
-  color: #92badd;
-  display:inline-block;
-  text-decoration: none;
-  font-weight: 400;
-}
-
-h2 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  display:inline-block;
-  margin: 40px 8px 10px 8px;
-  color: #cccccc;
-}
-
-.wrapper {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  min-height: 100%;
-  padding: 20px;
-}
-
-#formContent {
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
-  background: #fff;
-  padding: 30px;
-  width: 90%;
-  max-width: 450px;
-  position: relative;
-  padding: 0px;
-  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
-  text-align: center;
-}
-
-#formFooter {
-  background-color: #f6f6f6;
-  border-top: 1px solid #dce8f1;
-  padding: 25px;
-  text-align: center;
-  -webkit-border-radius: 0 0 10px 10px;
-  border-radius: 0 0 10px 10px;
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #ff9966;
-  border: 1px solid #990000;
-  color: white;
-  padding: 3% 5%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 13px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
-  margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-  background-color: #990000;
-  boder: solid #ff9966;
-}
-
-input[type=text] {
-  background-color: #f6f6f6;
-  border: none;
-  color: #0d0d0d;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 5px;
-  width: 85%;
-  border: 2px solid #f6f6f6;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
-}
-
-input[type=text]:focus {
-  background-color: #fff;
-  border-bottom: 2px solid #ff9966;
-}
-
-input[type=text]:focus::placeholder {
-  opacity: 0;
-}
-
-input[type=text]:placeholder {
-  color: #cccccc;
-}
-
-/* Simple CSS3 Fade-in-down Animation */
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fadeIn {
-  opacity:0;
-  -webkit-animation:fadeIn ease-in 1;
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
-}
-
-.fadeIn.first {
-  -webkit-animation-delay: 0.4s;
-  -moz-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-.fadeIn.second {
-  -webkit-animation-delay: 0.6s;
-  -moz-animation-delay: 0.6s;
-  animation-delay: 0.6s;
-}
-
-.fadeIn.third {
-  -webkit-animation-delay: 0.8s;
-  -moz-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-}
-
-.fadeIn.fourth {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-.underlineHover:after {
-  display: block;
-  left: 0;
-  bottom: -10px;
-  width: 0;
-  height: 2px;
-  background-color: #56baed;
-  content: "";
-  transition: width 0.2s;
-}
-
-.underlineHover:hover {
-  color: #0d0d0d;
-}
-
-.underlineHover:hover:after{
-  width: 100%;
-}
-
-*:focus {
-    outline: none;
-}
-
-#icon {
-  width:60%;
-}
-</style>
-
 <div class="comment-redaction">
     <div class="container">
+      <hr>
         <h4 id="comment-redacion">Rédigez votre avis</h4>
-        <form action="" method="post" id="redaction">
-          <select>
-            <option disabled selected>Note</option>
-            <option value="1">Un peu</option>
-            <option value="2">Beaucoup</option>
-            <option value="3">Passionnément</option>
-            <option value="4">À la folie</option>
-            <option value="5">Pas du tout</option>
-            <option value="6">Test prévu</option>
-          </select>
-          <div class="comment-redaction-hearts" id="img1" style="display:none"><img src="assets/img/un-peu.gif"></div>
-          <div class="comment-redaction-hearts" id="img2" style="display:none"><img src="assets/img/beaucoup.gif"></div>
-          <div class="comment-redaction-hearts" id="img3" style="display:none"><img src="assets/img/passionnement.gif"></div>
-          <div class="comment-redaction-hearts" id="img4" style="display:none"><img src="assets/img/a-la-folie.gif"></div>
-          <div class="comment-redaction-hearts" id="img5" style="display:none"><img src="assets/img/pas-du-tout.gif"></div>
-          <div class="comment-redaction-hearts" id="img6" style="display:none"><img src="assets/img/test-prevu.gif"></div>
+        <form action="" method="post">
+        <div class="row">
+            <div class="col" style="margin-bottom: 40px;">
+                <select class="form-control">
+                <option disabled selected>Note</option>
+                <option value="1">Un peu</option>
+                <option value="2">Beaucoup</option>
+                <option value="3">Passionnément</option>
+                <option value="4">À la folie</option>
+                <option value="5">Pas du tout</option>
+                <option value="6">Test prévu</option>
+                </select>
+            </div>
+            <div class="col" style="position: relative;">
+                <div class="comment-redaction-hearts" id="img1" style="display:none"><img src="assets/img/un-peu.gif"></div>
+                <div class="comment-redaction-hearts" id="img2" style="display:none"><img src="assets/img/beaucoup.gif"></div>
+                <div class="comment-redaction-hearts" id="img3" style="display:none"><img src="assets/img/passionnement.gif"></div>
+                <div class="comment-redaction-hearts" id="img4" style="display:none"><img src="assets/img/a-la-folie.gif"></div>
+                <div class="comment-redaction-hearts" id="img5" style="display:none"><img src="assets/img/pas-du-tout.gif"></div>
+                <div class="comment-redaction-hearts" id="img6" style="display:none"><img src="assets/img/test-prevu.gif"></div>
+            </div>
+        </div>
+            <label for="date-de-visite" name="date-de-visite" style="margin: 0;">Date de visite :</label>
+            <input type="text" id="date-de-visite" class="form-control" value="Repas du : ">
+            <small class="form-text text-muted" style="margin-bottom: 10px;">Format JJ.MM.AA</small>
+            <label for="avis" name="avis" style="margin: 0;">Votre avis :</label>
+            <textarea class="form-control" name="avis"></textarea>
+            <button class="btn btn-primary" style="border-color: #990000; background-color: #ff9966;">Envoyer</button>
         </form>
         <script language="JavaScript" type="text/javascript">
           $('select').change(()=>{
             let id = "img" + $('select').val();
-            $('.comment-redaction-hearts').css("display","none");
-            $('#'+id).css("display","flex");
+            $('.comment-redaction-hearts').css({
+              display : "none",
+            });
+            $('#'+id).css({
+              "display": "flex",
+              "position": "absolute",
+              "left": "25%",
+            });
           });
         </script>
     </div>
 </div>
 <div id="comments">
-    <div class="container comment">
+  <div class="container">
+    <hr>
+    <div class="container comment" id="comment1">
         <h5 class="username">fagenrus</h5>
         <p class="comment-date">09/05/2020</p>
-        <img class="hearts" src="assets/img/j-aime-a-la-folie.gif">
+        <img class="hearts" src="assets/img/a-la-folie.gif">
         <p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt tincidunt nulla. Donec tristique nibh ac
             velit laoreet, et accumsan lectus volutpat. Quisque eget urna turpis. Suspendisse elit sapien, faucibus nec augue at, imperdiet blandit lectus.
             In hac habitasse platea dictumst. Sed ullamcorper nisl in placerat convallis. Ut non elit et mi feugiat lobortis. Maecenas porttitor dignissim dictum.
             Duis laoreet nisi vel metus tempor facilisis. Etiam ac ipsum dolor. Nam gravida sagittis urna, et euismod orci euismod sit amet.
             Nulla congue purus ac risus semper semper. Duis ex lacus, elementum a porta eget, vestibulum ac tortor. Praesent nec dolor nulla.
             Nam sed mauris felis.</p>
-        <i class="fas fa-reply" title="Réservé aux restaurateurs"></i>
+        <button class="btn btn-primary btn-repondre" style="border-color: #990000; background-color: #ff9966; margin-top: 10px;">Répondre</button>
     </div>
-    <div class="container comment">
+    <hr>
+    <div class="container comment" id="comment2">
         <h5 class="username">fagenrus</h5>
         <p class="comment-date">09/05/2020</p>
-        <img class="hearts" src="assets/img/j-aime-a-la-folie.gif">
+        <img class="hearts" src="assets/img/a-la-folie.gif">
         <p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt tincidunt nulla. Donec tristique nibh ac
             velit laoreet, et accumsan lectus volutpat. Quisque eget urna turpis. Suspendisse elit sapien, faucibus nec augue at, imperdiet blandit lectus.
             In hac habitasse platea dictumst. Sed ullamcorper nisl in placerat convallis. Ut non elit et mi feugiat lobortis. Maecenas porttitor dignissim dictum.
             Duis laoreet nisi vel metus tempor facilisis. Etiam ac ipsum dolor. Nam gravida sagittis urna, et euismod orci euismod sit amet.
             Nulla congue purus ac risus semper semper. Duis ex lacus, elementum a porta eget, vestibulum ac tortor. Praesent nec dolor nulla.
             Nam sed mauris felis.</p>
-        <i class="fas fa-reply" title="Réservé aux restaurateurs"></i>
+        <button class="btn btn-primary btn-repondre" style="border-color: #990000; background-color: #ff9966; margin-top: 10px;">Répondre</button>
     </div>
+  </div>
+  <script type="text/javascript">
+  $('button.btn-repondre').each((_index, element)=>{
+    $(element).click(()=>{
+        let id = $(element).parent().attr('id');
+        $(element).css({
+            "display": "none",
+        });
+        $('#' + id).append(`
+        <div class="container">
+            <hr>
+            <h4 id="comment-redacion">Répondre au commentaire</h4>
+            <small class="form-text text-muted" style="margin-bottom: 10px;">Réservé au restaurateur</small>
+            <form action="" method="post">
+                <input type="hidden" value="`+id+`">
+                <div class="form-row">
+                    <div class="col">
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Mme">
+                            <label class="form-check-label" for="Mme">Mme</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Mr">
+                            <label class="form-check-label" for="Mr">Mr</label>
+                            </div>
+                        </div>
+                    <div class="col">
+                        <input type="text" class="form-control" name="Nom" placeholder="Nom">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" name="fonction" placeholder="Fonction dans l'établissement">
+                    </div>
+                </div>
+                <textarea class="form-control" name="reponse" style="margin: 10px 0;"></textarea>
+                <button class="btn btn-primary btn-send" style="border-color: #990000; background-color: #ff9966;">Envoyer</button>
+            </form>
+        </div>
+        `);
+    });
+});
+  </script>
 </div>
