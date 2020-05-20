@@ -136,7 +136,49 @@
                             });
                         });
                     });
-                    console.log(slider);
+                    $('li.tns-item').each((_index, element)=>{
+                        $(element).click(()=>{
+                            $('body').append(`
+                                <div class="custom-modal">
+                                    <div class="custom-modal-container">
+                                        <button style="position: absolute; right: 15px;">X</button>
+                                        <div class="modal-content">
+                                            <ul id="modal-slider">
+                                                <li><img src="https://static.toiimg.com/thumb/58475411/Kolkata-in-pictures.jpg?width=748&height=499"></li>
+                                                <li><img src="https://www.nottingham.ac.uk/Home/FeatureEvents/2018/Images/power-of-pictures-920.jpg"></li>
+                                                <li><img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2E2E/production/_102622811_sunrise.jpg"></li>
+                                                <li><img src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg"></li>
+                                                <li><img src="https://images.unsplash.com/photo-1469827160215-9d29e96e72f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"></li>
+                                                <li><img src="https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg"></li>
+                                                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEXVRyV72gzlBr6oMsP9PuJ2YL17yLcjty9gjyj_-IY9c6Q8Lg"></li>
+                                                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQvn8jov5i7u0z7Cd98SbJ8GRSpdUPnP5baOvaP2jOfGNE0f7"></li>
+                                            </ul>
+                                            <ul id="modal-customize-controls">
+                                                <li class="prev" aria-controls="customize" tabindex="-1" data-controls="prev">
+                                                    <img src="https://ganlanyuan.github.io/tiny-slider/demo/images/angle-left.png">
+                                                </li>
+                                                <li class="next" aria-controls="customize" tabindex="-1" data-controls="next">
+                                                    <img src="https://ganlanyuan.github.io/tiny-slider/demo/images/angle-right.png">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            `);
+                            $('div.custom-modal button').click(()=>{
+                                $('div.custom-modal').remove();
+                            });
+                            var second_slider = tns({
+                                container: "#modal-slider",
+                                fixedWidth: 1000,
+                                items: 1,
+                                loop: true,
+                                controls: true,
+                                nav: false,
+                                controlsContainer: "#modal-customize-controls",
+                            });
+                        });
+                    });
                 </script>
             </div>
     </div>
