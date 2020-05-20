@@ -401,13 +401,34 @@ input[type=text]:placeholder {
   width:60%;
 }
 </style>
+
 <div class="comment-redaction">
     <div class="container">
         <h4 id="comment-redacion">Rédigez votre avis</h4>
         <form action="" method="post" id="redaction">
-            <label for="visit-date">Date de visite (JJ.MM.AA)</label>
-            <input type="text" name="visit-date" id="visit-date" placeholder="JJ.MM.AA">
+          <select>
+            <option disabled selected>Note</option>
+            <option value="1">Un peu</option>
+            <option value="2">Beaucoup</option>
+            <option value="3">Passionnément</option>
+            <option value="4">À la folie</option>
+            <option value="5">Pas du tout</option>
+            <option value="6">Test prévu</option>
+          </select>
+          <div class="comment-redaction-hearts" id="img1" style="display:none"><img src="assets/img/un-peu.gif"></div>
+          <div class="comment-redaction-hearts" id="img2" style="display:none"><img src="assets/img/beaucoup.gif"></div>
+          <div class="comment-redaction-hearts" id="img3" style="display:none"><img src="assets/img/passionnement.gif"></div>
+          <div class="comment-redaction-hearts" id="img4" style="display:none"><img src="assets/img/a-la-folie.gif"></div>
+          <div class="comment-redaction-hearts" id="img5" style="display:none"><img src="assets/img/pas-du-tout.gif"></div>
+          <div class="comment-redaction-hearts" id="img6" style="display:none"><img src="assets/img/test-prevu.gif"></div>
         </form>
+        <script language="JavaScript" type="text/javascript">
+          $('select').change(()=>{
+            let id = "img" + $('select').val();
+            $('.comment-redaction-hearts').css("display","none");
+            $('#'+id).css("display","flex");
+          });
+        </script>
     </div>
 </div>
 <div id="comments">
