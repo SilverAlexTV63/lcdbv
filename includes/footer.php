@@ -21,6 +21,7 @@
                     </ul>
                 </div>
             </div>
+            <p>Site déclaré à la CNIL sous le numéro 1353411</p>
             <p>Copyright © 2020 Le Club des Bons Vivants - <a href="https://alexandre-leclerc.fr">Alexandre Leclerc</a></p>
         </div>
 </footer>
