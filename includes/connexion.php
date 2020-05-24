@@ -249,7 +249,7 @@ input[type=text]:placeholder {
           </div>
 
           <!-- Login Form -->
-          <form action="">
+          <form action="restaurateurs.php">
             <h4>Restaurateurs</h4>
             <p>Vous êtes restaurateurs ?</p>
             <input type="submit" class="fadeIn second" value="Accès Restaurateurs">
