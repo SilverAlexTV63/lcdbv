@@ -252,7 +252,7 @@ input[type=text]:placeholder {
           <form action="">
             <h4>Restaurateurs</h4>
             <p>Vous êtes restaurateurs ?</p>
-            <input type="submit" class="fadeIn second" value="Inscription / Connexion">
+            <input type="submit" class="fadeIn second" value="Accès Restaurateurs">
           </form>
 
         </div>
