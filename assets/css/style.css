@@ -377,3 +377,41 @@ div.comment-redaction {
   div.container>div.table-responsive>table.table>tbody>tr>td>img.list-hearts {
       max-width: 100px;
   }
+
+  /*Mode d'emploi*/
+
+  div.container.mode-d-emploi-first {
+      margin-top: 1%;
+  }
+
+  div.container.mode-d-emploi-first>div.col.stats {
+      position: relative;
+  }
+
+  div.container.mode-d-emploi-first>div.col.stats>ul,
+  div.container.mode-d-emploi-first>div.col.stats>ul>li>ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  div.container.mode-d-emploi-first>div.col.stats>ul>li>ul {
+      display: none;
+  }
+
+  div.container.mode-d-emploi-first>div.col.stats>ul>li.active:first-child {
+      margin-left: 0;
+  }
+
+  div.container.mode-d-emploi-first>div.col.stats>ul>li.active:last-child {
+      margin-right: 0;
+   }
+
+  div.container.mode-d-emploi-first>div.col.stats>ul>li.active {
+    flex: 1;
+    padding: 3% 1%;
+    display: flex;
+    border: 5px solid #990000;
+    border-radius: 20px;
+    margin: 20px;;
+  }

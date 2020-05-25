@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container mode-d-emploi-first">
     <div class="col stats">
         <p>Actuellement le Club des Bons Vivants c'est :</p>
-        <ul style="list-style: none;">
-            <li>XXXXXX membres ▼</li>
+        <ul>
+            <li class="active">XXXXXX membres ▼</li>
             <li>
                 <ul>
                     <li>XX% de femmes</li>
@@ -10,12 +10,15 @@
                     <li>XX% de +25 ans</li>
                 </ul>
             </li>
-            <li>XXXXX restaurateurs</li>
-            <li>XXXXX menus disponibles</li>
+            <li class="active">XXXXX restaurateurs</li>
+            <li class="active">XXXXX menus disponibles</li>
         </ul>
         <p>En résumé nos membres sont des consommateurs (CSP+/PCS+) qui aiment aller au restaurant.</p>
     </div>
 </div>
+<script>
+    
+</script>
 <div class="container">
     <div class="col">
         <h2 style="text-decoration: underline; text-align: center">Mode d'emploi</h2>
