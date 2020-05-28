@@ -386,16 +386,17 @@ div.comment-redaction {
 
   div.container.mode-d-emploi-first>div.col.stats {
       position: relative;
+      flex-wrap: wrap;
   }
 
   div.container.mode-d-emploi-first>div.col.stats>ul,
-  div.container.mode-d-emploi-first>div.col.stats>ul>li>ul {
+  div.container.mode-d-emploi-first>div.col.stats>ul>ul {
     padding: 0;
     list-style: none;
     display: flex;
   }
 
-  div.container.mode-d-emploi-first>div.col.stats>ul>li>ul {
+  div.container.mode-d-emploi-first>div.col.stats>ul.members-dropdown-items-list {
       display: none;
   }
 
@@ -415,3 +416,17 @@ div.comment-redaction {
     border-radius: 20px;
     margin: 20px;;
   }
+
+  .stats > p:nth-child(1) {
+    margin: 0;
+    font-weight: bold;
+    }
+
+  li.active:nth-child(1) {
+    text-align: center;
+  }
+  
+.stats > ul:nth-child(2) {
+  margin-bottom: 0;
+}
+

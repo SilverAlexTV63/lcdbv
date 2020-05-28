@@ -1,22 +1,47 @@
 <div class="container mode-d-emploi-first">
-    <div class="col stats">
+    <div class="col stats" id="stats">
         <p>Actuellement le Club des Bons Vivants c'est :</p>
         <ul>
-            <li class="active">XXXXXX membres ▼</li>
-            <li>
-                <ul>
-                    <li>XX% de femmes</li>
-                    <li>XX% d'hommes</li>
-                    <li>XX% de +25 ans</li>
-                </ul>
-            </li>
+            <li class="active members-dropdown">XXXXXX membres ▼</li>
             <li class="active">XXXXX restaurateurs</li>
             <li class="active">XXXXX menus disponibles</li>
         </ul>
-        <p>En résumé nos membres sont des consommateurs (CSP+/PCS+) qui aiment aller au restaurant.</p>
+        <ul class="members-dropdown-items-list">
+            <li  class="members-dropdown-items">XX% de femmes</li>
+            <li  class="members-dropdown-items">XX% d'hommes</li>
+            <li  class="members-dropdown-items">XX% de +25 ans</li>
+        </ul>
     </div>
 </div>
 <script>
+    class Dropdown {
+        constructor() { 
+            this.container = document.getElementById("stats");
+            this.dropdownMenu = this.container.querySelector(".members-dropdown");
+            this.dropdownItems = this.container.querySelectorAll(".members-dropdown-items");
+            this.dropdownMenu.addEventListener("click", () => {this.show()});
+            this.i = 0;
+        }
+
+        show(){
+        if (this.i === 0){
+            for (let dropdownItem of this.dropdownItems) {
+            dropdownItem.className= "members-dropdown-items active";
+            };
+            this.container.querySelector(".members-dropdown-items-list").style.display = "flex";
+            this.i = 1;
+        }
+        else if (this.i === 1){
+            for (let dropdownItem of this.dropdownItems) {
+            dropdownItem.className= "members-dropdown-items";
+            };
+            this.container.querySelector(".members-dropdown-items-list").style.display = "none";
+            this.i = 0;
+        }
+    };
+    }
+
+    const dropdown = new Dropdown();
     
 </script>
 <div class="container">
