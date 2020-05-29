@@ -47,8 +47,8 @@
 <div class="container">
     <div class="col">
         <h2 style="text-decoration: underline; text-align: center">Mode d'emploi</h2>
-        <p>C'est très simple: Envoyez vos menus, nous nous chageons du reste.</p>
-        <ul>
+        <p>C'est très simple: <span style="font-weight: bold;">Envoyez vos menus, nous nous chageons du reste.</span></p>
+        <ul style="list-style-type: disclosure-closed;">
             <li>Diffusion de l'information par courriel,</li>
             <li>Mise en ligne sur le site internet,</li>
             <li>Parution dans la liste des nouveaux menus pendant 3 semaines minimum,</li>
@@ -59,12 +59,11 @@
         <p>C'est pour un restaurant, une formidable publicité <span style="text-decoration: underline">parfaitement</span> ciblée</p>
     </div>
 </div>
-<div class="container">
-    </div>
-    <h4 style="text-decoration: underline">Le tarif :</h4>
-    <div class="row">
+<div class="container" style="margin-bottom: 20px;">
+    <h2 style="text-decoration: underline; text-align: center;margin-bottom: 20px;">Tarifs</h2>
+    <div class="row" style="justify-content: center;">
         <div class="col" style="margin: 0 1rem; max-width: 18rem;">
-            <div class="card text-center" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);">
             <div class="card-body">
                 <h5 style="text-decoration: underline; font-weight: bold;">Gratuit</h5>
                 <small>0€/mise à jour</small>
@@ -75,12 +74,12 @@
                 <p>Reportage vidéo</p>
                 <hr>
                 <p>Mises à jour gratuites</p>
-                <button class="btn btn-primary">Inscription</button>
+                <button class="btn btn-primary" style="background-color: #ff9966; border-color: #990000;">Inscription</button>
             </div>
             </div>
         </div>
-        <div class="col" style="max-width: 18rem;">
-            <div class="card text-center" style="width: 18rem;">
+        <div class="col" style="margin: 0 1rem;max-width: 18rem;">
+            <div class="card text-center" style="width: 18rem;box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);">
             <div class="card-body">
                 <h5 style="text-decoration: underline; font-weight: bold;">Payant</h5>
                 <small>100€/mise à jour</small>
@@ -91,4 +90,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
