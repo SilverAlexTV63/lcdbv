@@ -60,27 +60,35 @@
     </div>
 </div>
 <div class="container">
+    </div>
     <h4 style="text-decoration: underline">Le tarif :</h4>
     <div class="row">
-        <div class="col" style="border: solid 1px #990000; border-radius: 10px; padding: 10px;">
-            <h5 style="text-decoration: underline; font-weight: bold;">Gratuit</h5>
-            <small>0€/mise à jour</small>
-            <p>Saisissez vos cartes et vos menus</p>
-            <hr>
-            <p>Diaporama photos</p>
-            <hr>
-            <p>Reportage vidéo</p>
-            <hr>
-            <p>Mises à jour gratuites</p>
-            <button class="btn btn-primary">Inscription</button>
+        <div class="col" style="margin: 0 1rem; max-width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+                <h5 style="text-decoration: underline; font-weight: bold;">Gratuit</h5>
+                <small>0€/mise à jour</small>
+                <p>Saisissez vos cartes et vos menus</p>
+                <hr>
+                <p>Diaporama photos</p>
+                <hr>
+                <p>Reportage vidéo</p>
+                <hr>
+                <p>Mises à jour gratuites</p>
+                <button class="btn btn-primary">Inscription</button>
+            </div>
+            </div>
         </div>
-        <div class="col" style="border: solid 1px #990000; border-radius: 10px; padding: 10px;">
-            <h5 style="text-decoration: underline; font-weight: bold;">Payant</h5>
-            <small>100€/mise à jour</small>
-            <p>Nous scannons vos documents</p>
-            <hr>
-            <p><a href="https://www.leclubdesbonsvivants.com/recapitulatif.pdf" target="_blank">Récapitulatif des pièces à envoyer</a></p>
-            <h5>100€/mise à jour</h5>
+        <div class="col" style="max-width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+                <h5 style="text-decoration: underline; font-weight: bold;">Payant</h5>
+                <small>100€/mise à jour</small>
+                <p>Nous scannons vos documents</p>
+                <hr>
+                <p><a href="https://www.leclubdesbonsvivants.com/recapitulatif.pdf" target="_blank">Récapitulatif des pièces à envoyer</a></p>
+                <h5>100€/mise à jour</h5>
+            </div>
         </div>
     </div>
 </div>
