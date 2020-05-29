@@ -61,7 +61,7 @@
 </div>
 <div class="container" style="margin-bottom: 20px;">
     <h2 style="text-decoration: underline; text-align: center;margin-bottom: 20px;">Tarifs</h2>
-    <div class="row" style="justify-content: center;">
+    <div class="row" style="justify-content: center; align-items: center;">
         <div class="col" style="margin: 0 1rem; max-width: 18rem;">
             <div class="card text-center" style="width: 18rem;box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);">
             <div class="card-body">

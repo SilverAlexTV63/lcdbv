@@ -238,13 +238,13 @@ textarea:placeholder {
           <!-- Contact Form -->
           <form>
             <h4>Membres</h4>
-            <textarea id="old-infos" class="fadeIn first" name="message" placeholder="Votre Anciennes Informations..."></textarea>
-            <textarea id="new-infos" class="fadeIn first" name="message" placeholder="Votre Nouvelles Informations..."></textarea>
             <h4>Précisez :</h4>
             <ul style="list-style-type: disclosure-closed;">
                 <li>Les anciennes informations qui sont actuellement affichées sur notre site.</li>
                 <li>Les nouvelles informations à afficher sur notre site.</li>
             </ul>
+            <textarea id="old-infos" class="fadeIn first" name="message" placeholder="Votre Anciennes Informations..."></textarea>
+            <textarea id="new-infos" class="fadeIn first" name="message" placeholder="Votre Nouvelles Informations..."></textarea>
             <input type="submit" class="fadeIn second" value="Envoyer">
           </form>
 
