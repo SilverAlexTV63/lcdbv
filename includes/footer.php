@@ -17,7 +17,7 @@
                         <li><a href="#" style="color: black">Mentions Légales</a></li>
                         <li><a href="#" style="color: black">CGU</a></li>
                         <li><a href="#" style="color: black">RGPD</a></li>
-                        <li><a href="#" style="color: black">Partenaires</a></li>
+                        <li><a href="partenaire.php" style="color: black">Partenaires</a></li>
                     </ul>
                 </div>
             </div>

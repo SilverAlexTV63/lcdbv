@@ -3,6 +3,11 @@
         <p>Actuellement le Club des Bons Vivants c'est :</p>
         <ul>
             <li class="active members-dropdown">XXXXXX membres ▼</li>
+            <style>
+                li.active.members-dropdown:hover {
+                    cursor: pointer;
+                }
+            </style>
             <li class="active">XXXXX restaurateurs</li>
             <li class="active">XXXXX menus disponibles</li>
         </ul>

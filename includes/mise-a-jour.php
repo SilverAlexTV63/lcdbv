@@ -238,7 +238,7 @@ textarea:placeholder {
           <!-- Contact Form -->
           <form>
             <h4>Membres</h4>
-            <h4>Précisez :</h4>
+            <p>Précisez :<p>
             <ul style="list-style-type: disclosure-closed;">
                 <li>Les anciennes informations qui sont actuellement affichées sur notre site.</li>
                 <li>Les nouvelles informations à afficher sur notre site.</li>
