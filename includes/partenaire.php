@@ -1,4 +1,9 @@
-<div class="container" style="display: flex;">
+<!--<style>
+    div.container{
+        display: none;
+    }
+</style>-->
+<div class="container">
     <div class="col" style="justify-content: center;">
         <h2 style="font-weight: bold; text-align: center;">Partenariat</h2>
 
@@ -18,5 +23,13 @@
             www.LeCLubDesBonsVivants.com</p></a>
         </div>
         <hr>
+    </div>
+</div>
+<div class="container">
+    <div class="col">
+        <p>Cette page n'est pas disponible sur mobile.
+            <br>
+            Nous vous conseillons d'utiliser un ordinateur.
+        </p>
     </div>
 </div>

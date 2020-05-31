@@ -2,9 +2,8 @@
     <div class="col">
         <h2 style="text-align: center;">Demande d'autocollant</h2>
         <p style="text-decoration: underline; font-weight: bold; text-align: center;">Faites savoir à vos clients que votre restaurant est recommandé</p>
-        <div style="text-align: center;"><img src="assets/img/autocollantcarre.gif" width="150" ALIGN="middle"> <img src="assets/img/presentoir-flyer.png" ALIGN="middle">
-            <p>Pour recevoir <span style="font-weight: bold;">GRATUITEMENT</span> l'autocollant du Club Des Bons Vivants avec des flyers et un présentoir envoyez <span style="font-weight: bold; text-decoration: underline;">par courrier</span> :</p>
-        </div>
+        <div style="text-align: center;"><img src="assets/img/autocollantcarre.gif" width="150" ALIGN="middle"> <img src="assets/img/presentoir-flyer.png" ALIGN="middle"></div>
+        <p>Pour recevoir <span style="font-weight: bold;">GRATUITEMENT</span> l'autocollant du Club Des Bons Vivants avec des flyers et un présentoir envoyez <span style="font-weight: bold; text-decoration: underline;">par courrier</span> :</p>
         <ul>
             <li><span style="font-weight: bold;">1 carte de visite de votre restaurant</span></li>
             <li><span style="font-weight: bold;">1 enveloppe :</span>

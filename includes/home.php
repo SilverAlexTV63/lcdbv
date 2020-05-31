@@ -1,4 +1,4 @@
-<header class="masthead text-white text-center" style="padding: 4rem; padding-bottom: 1rem; background-color: white">
+<header class="masthead text-white text-center" style="padding: 1rem;padding-bottom: 10px; background-color: white">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-  <div class="container d-xl-flex justify-content-xl-start" style="padding: 3rem; padding-bottom: 0;">
+  <div class="container d-xl-flex justify-content-xl-start" style="padding-top: 10px; padding-bottom: 0;">
 		<div class="col arround"><br></div>
             <div class="col">
               <style>

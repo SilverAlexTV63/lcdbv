@@ -8,7 +8,8 @@
         <a class="navbar-brand" href="index.php">
             <img src="assets/img/long-logo.png">
         </a>
-        <div class="collapse navbar-collapse" id="navcol-1" style="flex-grow: 0;">
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
             <form class="form-inline" target="_self">
                 <div class="form-group">
                     <input class="form-control search-field" type="search" id="search-field" name="search" style="background-color: rgba(255, 153, 102, .01); border-color: #990000;">

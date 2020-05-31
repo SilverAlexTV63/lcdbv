@@ -224,15 +224,35 @@ div.comment-redaction {
 
 }
 @media screen and (max-width:580px){
-    nav.navbar>div.container-fluid>div.navbar-collapse>form.form-inline{
-        position: relative;
+    nav.navbar div.container-fluid div#navcol-1.navbar-collapse.collapse.show form.form-inline div.form-group {
+        margin: 0;
+        padding: 0;
+        flex-wrap: no-wrap;
+        width: 100%;
     }
-    nav.navbar>div.container-fluid>div.navbar-collapse>form.form-inline>div.form-group>label.search-field{
+
+    nav.navbar div.container-fluid div#navcol-1.navbar-collapse.collapse.show form.form-inline div.form-group label.search-field{
         display: flex;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        padding: 0;
+        margin: 0;
+        width: 164px!important;
     }
+
+
+    nav.navbar>div.container-fluid>div.navbar-collapse>form.form-inline{
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+
+    label {
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width:768px){
@@ -430,3 +450,10 @@ div.comment-redaction {
   margin-bottom: 0;
 }
 
+@media (max-width: 990px){
+    footer div.container div.row div.col ul.text-right {
+        text-align: center!important;
+        margin: 10px 0;
+        padding: 0;
+    }
+}
