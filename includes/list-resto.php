@@ -18,15 +18,17 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><img class="miniature" src="#"></td>
-                    <td><a href="resto.php" style="color: black;">Resto1</a></td>
-                    <td>Adresse</td>
-                    <td>XX €</td>
-                    <td><img class="list-hearts" src="assets/img/a-la-folie.gif"> (X avis)</td>
-                    <td>Genre</td>
-                    <td>Ville</td>
-                </tr>
+                <a href="resto.php">
+                    <tr>
+                        <td><a href="resto.php"><img class="miniature" src="#"></a></td>
+                        <td><a href="resto.php" style="color: black;">Resto1</a></td>
+                        <td>Adresse</td>
+                        <td>XX €</td>
+                        <td><img class="list-hearts" src="assets/img/a-la-folie.gif"> (X avis)</td>
+                        <td>Genre</td>
+                        <td>Ville</td>
+                    </tr>
+                </a>
                 <tr>
                     <td><img class="miniature" src="#"></td>
                     <td><a href="#" style="color: black;">Resto2</a></td>

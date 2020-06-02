@@ -457,3 +457,18 @@ div.comment-redaction {
         padding: 0;
     }
 }
+
+/*Responsive*/
+
+@media (max-width: 360px){
+
+    header.masthead.text-white.text-center{
+        padding: 1rem;
+    }
+
+    div.container:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    padding: 0;
+    }
+
+
+}

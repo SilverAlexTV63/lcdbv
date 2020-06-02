@@ -1,4 +1,4 @@
-<header class="masthead text-white text-center" style="padding: 4rem; padding-bottom: 1rem; background-color: white">
+<header class="masthead text-white text-center" style="background-color: white;">
     <div class="container">
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form action="results.php">
@@ -9,7 +9,7 @@
             </form>
         </div>
     </div>
-  <div class="container d-xl-flex justify-content-xl-start" style="padding: 3rem; padding-bottom: 0;">
+  <div class="container d-xl-flex justify-content-xl-start">
 		<div class="col arround"><br></div>
             <div class="col">
               <style>
@@ -102,7 +102,7 @@
 
 
 <!-- viewBox="0 0 548.2 564.3" enable-background="new 0 0 548.2 564.3" paris: viewBox="250 100 100 100"-->
-<svg version="1.0" id="Layer_1" viewBox="278 260 228 170" overflow="visible" style="margin-bottom: 50px;">
+<svg version="1.0" id="Layer_1" viewBox="278 260 228 170" overflow="visible">
 <!-- DEBUT AUVERGNE RHONE ALPES -->
 
 	<a class="svglink" href="<?php echo $liendep['03']; ?>" title="<?php echo $descdep['03']; ?>" alt="<?php echo $descdep['03']; ?>">
