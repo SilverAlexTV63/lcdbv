@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'roboto';
+}
+
 footer.footer {
     padding: 2rem 0;
 }
@@ -201,6 +212,12 @@ div.comment>i.fa-reply {
 div.comment-redaction {
     margin: 0;
 }
+
+header.masthead{
+    padding: 0!important;
+    margin: 25px 0;
+}
+
 /*RESPOSIVE*/
 
 @media screen and (max-width:1080px) and (min-width:970px){
