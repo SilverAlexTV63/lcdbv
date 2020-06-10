@@ -22,7 +22,7 @@
         </div>
     <div class="container" id="description-slider">
         <div class="row">
-            <div id="description-col" class="col" style="display: flex; max-width:50%;">
+            <div id="description-col" class="col" style="display: flex; max-width:50%; padding-left: 0;">
                 <div class="card" style="border: none;">
                     <div class="card-body" style="padding-left: 0;">
                         <img class ="card-hearts" src="assets/img/a-la-folie.gif">

@@ -185,7 +185,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col" style="padding-left: 0;">
                 <div class="intro">
                     <h2 class="text-left">Pour voir la carte,...</h2>
                     <form class="form-inline d-xl-flex" method="post" action="resto-full-display.php">
