@@ -8,6 +8,9 @@
         <button class="btn btn-primary btn-add-carte-boissons">➕ Ajouter Carte des Boissons</button>
         <script type="text/javascript">
             let carteI = 0;
+            let carteEntree = 0;
+            let cartePlat = 0;
+            let carteDessert = 0;
             $('button.btn-add-carte').each((_index, element)=>{
             $(element).click(()=>{
                 let id = $(element).parent().parent().attr('id');
@@ -15,7 +18,18 @@
                 <div  id="carte`+ carteI +`">
                     <hr>
                         <h4>Carte</h4>
-                    <button class="btn btn-primary btn-add-element">➕ Ajouter un élément</button>
+                        <div id="entrees`+ carteI +`">
+                            <h3>Entrées</h3>
+                            <button class="btn btn-primary btn-add-entreee`+ carteI +`">➕ Ajouter une entrée</button>
+                        </div>
+                        <div id="plats`+ carteI +`">
+                            <h3>Plats</h3>
+                            <button class="btn btn-primary btn-add-element">➕ Ajouter un plat</button>
+                        </div>
+                        <div id="desserts`+ carteI +`">
+                            <h3>Desserts</h3>
+                            <button class="btn btn-primary btn-add-element">➕ Ajouter un dessert</button>
+                        </div>
                     <button class="btn btn-primary btn-remove-carte`+ carteI +`">➖ Supprimer la carte</button>
                 </div>
                 
