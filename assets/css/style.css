@@ -13,6 +13,10 @@ footer.footer {
     padding: 2rem 0;
 }
 
+.display-none {
+    display: none;
+}
+
 img.card-hearts {
     width: 200px;
     margin-bottom: 20px;

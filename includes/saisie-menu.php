@@ -1,5 +1,5 @@
-<div class="container" id="addButtonContainer" style="margin-top: 1rem;">
-    <div class="col" style="padding: 0;">
+<div class="container-fluid" id="addButtonContainer" style="margin-top: 1rem;">
+    <div class="col btn-container" style="padding: 0;">
         <button class="btn btn-primary btn-add-carte">➕ Ajouter Carte</button>
         <button class="btn btn-primary btn-add-menu">➕ Ajouter Menu</button>
         <button class="btn btn-primary btn-add-menu-carte">➕ Ajouter Menu Carte</button>
@@ -36,10 +36,12 @@
                 <script type="text/javascript">
                 $('button.btn-remove-carte`+ carteI +`').click(()=>{
                     $('#carte`+ carteI +`').remove();
+                    $('.btn-add-carte').removeClass('display-none');
                 });
                 <\/script>
                 `);
                 carteI ++;
+                $('.btn-add-carte').addClass('display-none');
             });
         });
 
@@ -75,6 +77,7 @@
                         <h4>Menu Carte</h4>
                     <button class="btn btn-primary btn-add-element">➕ Ajouter un élément</button>
                     <button class="btn btn-primary btn-remove-menuCarte`+ menuCarteI +`">➖ Supprimer le menu carte</button>
+                </div>
                 
                 <script type="text/javascript">
                 $('button.btn-remove-menuCarte`+ menuCarteI +`').click(()=>{
@@ -101,10 +104,12 @@
                 <script type="text/javascript">
                 $('button.btn-remove-carteVins`+ carteVinsI +`').click(()=>{
                     $('#carteVins`+ carteVinsI +`').remove();
+                    $('.btn-add-carte-vins').removeClass('display-none');
                 });
                 <\/script>
                 `);
                 carteVinsI ++;
+                $('.btn-add-carte-vins').addClass('display-none');
             });
         });
 
@@ -123,10 +128,12 @@
                 <script type="text/javascript">
                 $('button.btn-remove-cartePizzas`+ cartePizzasI +`').click(()=>{
                     $('#cartePizzas`+ cartePizzasI +`').remove();
+                    $('.btn-add-carte-pizzas').removeClass('display-none');
                 });
                 <\/script>
                 `);
-                cartePizzasI ++;
+                cartePizzasI ++; 
+                $('.btn-add-carte-pizzas').addClass('display-none');
             });
         });
 
@@ -145,10 +152,12 @@
                 <script type="text/javascript">
                 $('button.btn-remove-carteBoissons`+ carteBoissonsI +`').click(()=>{
                     $('#carteBoissons`+ carteBoissonsI +`').remove();
+                    $('.btn-add-carte-boissons').removeClass('display-none');
                 });
                 <\/script>
                 `);
                 cartePizzasI ++;
+                $('.btn-add-carte-boissons').addClass('display-none');
             });
         });
 
