@@ -17,7 +17,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><a href="#" style="color: black;">Resto1</a></td>
+                    <td><a href="resto.php" style="color: black;">Resto1</a></td>
                     <td>Adresse</td>
                     <td>Ville</td>
                 </tr>
